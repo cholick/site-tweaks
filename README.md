@@ -9,7 +9,7 @@ and minimizing the number installed seems prudent.
 
 As it turns out, it only takes a tiny bit of scaffolding to wrap up scripts that
 I would otherwise use something like
-(tampermonkey)[http://tampermonkey.net/] anyway, so
+[tampermonkey](http://tampermonkey.net/) anyway, so
 there's really no inconvenience.
 
 ### Resources
