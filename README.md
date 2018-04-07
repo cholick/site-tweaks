@@ -15,7 +15,7 @@ there's really no inconvenience.
 ### Resources
 * 101 Tutorial
     - https://robots.thoughtbot.com/how-to-make-a-chrome-extension
-* Reference
+* Chrome developer docs
     - https://developer.chrome.com/extensions/overview
 * Web store dev dashboard
     - https://chrome.google.com/webstore/developer/dashboard
