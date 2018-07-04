@@ -1,18 +1,31 @@
 {
-	"manifest_version": 2,
-	"name": "Matt Cholick's Random Site Tweaks",
-	"description": "A collection of scripts so I can avoid heavier tooling.",
-	"version": "0.1",
-	"icons": {
-		"128": "icon128.png",
-		"48": "icon48.png",
-		"16": "icon16.png"
-	},
-	"content_scripts": [{
-		"matches": [
-			"https://calendar.google.com/*"
-		],
-		"js": ["google_calendar.js"],
-		"run_at": "document_end"
-	}]
+  "manifest_version": 2,
+  "name": "Matt Cholick's Random Site Tweaks",
+  "description": "A collection of scripts so I can avoid heavier tooling.",
+  "version": "0.1",
+  "icons": {
+    "128": "icon128.png",
+    "48": "icon48.png",
+    "16": "icon16.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://calendar.google.com/*"
+      ],
+      "js": [
+        "google_calendar.js"
+      ],
+      "run_at": "document_end"
+    },
+    {
+      "matches": [
+        "https://finance.yahoo.com/*"
+      ],
+      "js": [
+        "yahoo_finance.js"
+      ],
+      "run_at": "document_start"
+    }
+  ]
 }
