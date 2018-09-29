@@ -12,6 +12,8 @@ I would otherwise use something like
 [tampermonkey](http://tampermonkey.net/) anyway, so
 there's really no inconvenience.
 
+Manage extensions in the Chrome web store [Developer Dashboard](https://chrome.google.com/webstore/developer/dashboard)
+
 ### Resources
 * 101 Tutorial
     - https://robots.thoughtbot.com/how-to-make-a-chrome-extension
