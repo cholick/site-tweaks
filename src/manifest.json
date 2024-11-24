@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Matt Cholick's Random Site Tweaks",
   "description": "A collection of scripts so I can avoid heavier tooling.",
-  "version": "0.2",
+  "version": "0.3",
   "icons": {
     "128": "icon128.png",
     "48": "icon48.png"
