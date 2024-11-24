@@ -9,20 +9,12 @@
   },
   "content_scripts": [
     {
-      "matches": [
-        "https://terraria.fandom.com/*"
-      ],
-      "css": [
-        "terraria.fandom.css"
-      ]
+      "matches": ["https://terraria.fandom.com/*"],
+      "css": ["terraria.fandom.css"]
     },
     {
-      "matches": [
-        "https://www.google.com/*"
-      ],
-      "css": [
-        "google.com.css"
-      ]
+      "matches": ["https://www.google.com/*"],
+      "css": ["google.com.css"]
     }
   ]
 }
