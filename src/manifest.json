@@ -1,40 +1,28 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "Matt Cholick's Random Site Tweaks",
   "description": "A collection of scripts so I can avoid heavier tooling.",
   "version": "0.2",
   "icons": {
     "128": "icon128.png",
-    "48": "icon48.png",
-    "16": "icon16.png"
+    "48": "icon48.png"
   },
   "content_scripts": [
     {
       "matches": [
-        "https://calendar.google.com/*"
+        "https://terraria.fandom.com/*"
       ],
-      "js": [
-        "google_calendar.js"
-      ],
-      "run_at": "document_end"
+      "css": [
+        "terraria.fandom.css"
+      ]
     },
     {
       "matches": [
-        "https://mail.google.com/*"
+        "https://www.google.com/*"
       ],
-      "js": [
-        "gmail.js"
-      ],
-      "run_at": "document_end"
-    },
-    {
-      "matches": [
-        "https://finance.yahoo.com/*"
-      ],
-      "js": [
-        "yahoo_finance.js"
-      ],
-      "run_at": "document_start"
+      "css": [
+        "google.com.css"
+      ]
     }
   ]
 }
