@@ -14,10 +14,6 @@ there's minimal inconvenience.
 
 Manage extensions in the Chrome web store [Developer Dashboard](https://chrome.google.com/webstore/developer/dashboard)
 
-## To-do
-- [ ] Prevent shortcut overriding in RealtimeBoard
-- [ ] Tweak Gmail, issue with Google apps ▦ link
-
 ### Resources
 * 101 Tutorial
     - https://robots.thoughtbot.com/how-to-make-a-chrome-extension
