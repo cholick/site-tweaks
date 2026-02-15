@@ -17,6 +17,10 @@
       "css": ["google.com.css"]
     },
     {
+      "matches": ["https://www.youtube.com/*"],
+      "css": ["youtube.com.css"]
+    },
+    {
       "matches": ["https://github.com/github/github/pulls"],
       "css": ["github.com.github-pulls.css"]
     },

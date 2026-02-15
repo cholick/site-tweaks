@@ -1,0 +1,7 @@
+ytd-rich-item-renderer[rendered-from-rich-grid] {
+    width: 22% !important;
+}
+
+ytd-rich-section-renderer {
+    display: none !important;
+}
