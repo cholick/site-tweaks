@@ -1,0 +1,4 @@
+/* Fragile, but we'll see how long it lasts */
+[data-pep-id="global-pep-gmail"]:has([data-action-behavior*="one.google.com/dynamic-plans"][data-action-behavior*="Upgrade"]) {
+	display: none !important;
+}

@@ -13,6 +13,11 @@
       "css": ["terraria.fandom.css"]
     },
     {
+      "matches": ["https://mail.google.com/*"],
+      "css": ["mail.google.com.css"]
+    },
+
+    {
       "matches": ["https://www.google.com/*"],
       "css": ["google.com.css"]
     },
