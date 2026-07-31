@@ -16,6 +16,10 @@
       "matches": ["https://mail.google.com/*"],
       "css": ["mail.google.com.css"]
     },
+    {
+      "matches": ["https://calendar.google.com/*"],
+      "css": ["calendar.google.com.css"]
+    },
 
     {
       "matches": ["https://www.google.com/*"],
