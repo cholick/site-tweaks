@@ -1,0 +1,3 @@
+#workspace-onegoogle-pep-container:has([data-action-behavior*="one.google.com/dynamic-plans"][data-action-behavior*="utm_source=docs"]) {
+	display: none !important;
+}

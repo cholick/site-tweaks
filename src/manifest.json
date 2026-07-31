@@ -20,6 +20,14 @@
       "matches": ["https://calendar.google.com/*"],
       "css": ["calendar.google.com.css"]
     },
+    {
+      "matches": ["https://drive.google.com/*"],
+      "css": ["drive.google.com.css"]
+    },
+    {
+      "matches": ["https://docs.google.com/*"],
+      "css": ["docs.google.com.css"]
+    },
 
     {
       "matches": ["https://www.google.com/*"],
