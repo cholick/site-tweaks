@@ -38,6 +38,11 @@
       "css": ["youtube.com.css"]
     },
     {
+      "matches": ["https://www.amazon.com/*"],
+      "js": ["amazon.com.js"],
+      "run_at": "document_start"
+    },
+    {
       "matches": ["https://github.com/github/github/pulls"],
       "css": ["github.com.github-pulls.css"]
     },
